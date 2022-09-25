@@ -23,7 +23,7 @@ public class GetLocalTimeZone : MonoBehaviour
     {
         localDate = DateTime.Now;
         //Debug.Log(localDate.Hour + ":" + localDate.Minute + ":" + localDate.Second);
-        second.transform.localRotation = Quaternion.Euler(localDate.Second*6f, 0f, 0f);
+        second.transform.localRotation = Quaternion.Euler(localDate.Second * 6f, 0f, 0f);
         minute.transform.localRotation = Quaternion.Euler(localDate.Minute * 6f, 0f, 0f);
         hour.transform.localRotation = Quaternion.Euler(localDate.Hour * 30f, 0f, 0f); 
     }
