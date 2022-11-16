@@ -16,8 +16,9 @@ public class Polaroid : MonoBehaviour
     private void Start()
     {
         CreateRenderTexture();
-        TurnOff();
-    }
+		//TurnOff();
+		//TurnOn();
+	}
 
     private void CreateRenderTexture()
     {
